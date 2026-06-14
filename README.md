@@ -1,12 +1,12 @@
-# 🏎️ Production-Grade Formula 1 Telemetry Engine
+#  Production-Grade Formula 1 Telemetry Engine
 
 A full-stack, data-driven web application that pulls live motorsport data streams, processes fine-grained timeline mechanics, and exposes an interactive data visualization layout for racing engineers and analysts.
 
-🔗 **[Launch Live Interactive Dashboard](https://f1-project-gfkrn8wb7xudaye5h9sjpt.streamlit.app/)**
+ **[Launch Live Interactive Dashboard](https://f1-project-gfkrn8wb7xudaye5h9sjpt.streamlit.app/)**
 
 ---
 
-## 📊 Core Features
+##  Core Features
 
 ### 1. Lap-by-Lap Telemetry Analysis
 * Compares head-to-head lap data for any two selected drivers during a Grand Prix weekend.
@@ -23,7 +23,7 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 * **Language Layer:** Python 3 (Optimized for vector math arrays)
 * **Data Processing Pipeline:** `pandas` (DataFrame aggregation), `numpy` (Statistical modeling), `FastF1` (API telemetry synchronization wrapper)
