@@ -22,6 +22,8 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 * Executes a **NumPy linear regression modeling sequence** to calculate the precise degradation slope coefficient in seconds lost per lap.
 
 ### 3. Track Evolution Profile
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d45c638c-410c-4e89-92e1-650e608394ad" />
+
 * Evaluates historical timing sheets chronologically across Q1, Q2, and Q3 segments.
 * Tracks circuit optimization dynamics and grip progression as rubber sets into the track surface.
 
