@@ -38,6 +38,5 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 
 ### System Data Flow Layout
 ```text
-[FastF1 API Streams] ──> [Local File Caching] ──> [Pandas Matrix Vectorization] 
-                                                               │
-[Interactive Plotly.js Component] <── [WebSocket State Sync] ──┘
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/caafd4e0-9a57-4d39-aca9-092418dbe32b" />
+
