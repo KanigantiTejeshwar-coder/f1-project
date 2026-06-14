@@ -9,6 +9,8 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 ##  Core Features
 
 ### 1. Lap-by-Lap Telemetry Analysis
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3193f279-3f40-4560-99cd-3d436d9d8aa7" />
+
 * Compares head-to-head lap data for any two selected drivers during a Grand Prix weekend.
 * Synchronizes multiple time-series graphs (**Speed, Throttle position, and Brake applications**) across a single, unified distance baseline.
 * Implements client-side crosshair tracking for micro-second precision corner analysis.
