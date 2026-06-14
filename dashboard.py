@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 
 # 1. Setup Web Page Layout
 st.set_page_config(page_title="F1 Analysis Tool", layout="wide")
-st.title("🏎️ Production-Grade Formula 1 Telemetry Engine")
+st.title(" Production-Grade Formula 1 Telemetry Engine")
 
 fastf1.Cache.enable_cache('./cache')
 
@@ -50,7 +50,7 @@ with tab1:
                 d1_tel = d1_lap.get_car_data().add_distance()
                 d2_tel = d2_lap.get_car_data().add_distance()
                 
-                st.markdown("### 📊 Session Statistics")
+                st.markdown("###  Session Statistics")
                 kpi1, kpi2, kpi3, kpi4 = st.columns(4)
                 
                 d1_time = d1_lap['LapTime'].total_seconds()
@@ -62,7 +62,7 @@ with tab1:
                 kpi3.metric(label=f"{driver1} Max Speed", value=f"{d1_tel['Speed'].max()} km/h")
                 kpi4.metric(label=f"{driver2} Max Speed", value=f"{d2_tel['Speed'].max()} km/h")
                 
-                st.markdown("### 🏎️ Telemetry Traces")
+                st.markdown("###  Telemetry Traces")
                 fig = make_subplots(rows=3, cols=1, shared_xaxes=True, vertical_spacing=0.05,
                                     subplot_titles=("Speed (km/h)", "Throttle (%)", "Brake Application"))
                 
