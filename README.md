@@ -16,6 +16,8 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 * Implements client-side crosshair tracking for micro-second precision corner analysis.
 
 ### 2. Predictive Tyre Degradation Engine
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/11458b37-275b-42ef-b609-70f5c05efe68" />
+
 * Pulls continuous lap times throughout individual race stints.
 * Executes a **NumPy linear regression modeling sequence** to calculate the precise degradation slope coefficient in seconds lost per lap.
 
