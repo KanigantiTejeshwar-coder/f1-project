@@ -37,6 +37,5 @@ A full-stack, data-driven web application that pulls live motorsport data stream
 * **Visualization Layer:** Plotly.js (Client-side interactive vector graphics)
 
 ### System Data Flow Layout
-```text
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/caafd4e0-9a57-4d39-aca9-092418dbe32b" />
 
